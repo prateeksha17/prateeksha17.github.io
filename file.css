@@ -1,0 +1,15 @@
+.container{
+    display:inline-block;
+}
+.text{
+    overflow:hidden;
+    border-right:.15em solid orangered;
+    white-space: nowrap;
+    animation:typing 4s forwards;
+    font-size:1.6rem;
+    width:0;
+}
+@keyframes typing{
+    from{width:0}
+    to{width:100%}
+}
